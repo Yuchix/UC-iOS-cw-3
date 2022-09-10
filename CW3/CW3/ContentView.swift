@@ -24,6 +24,7 @@ struct ContentView: View {
             TextField("ادخل بياناتك",text:$degree)
                 .frame(width: 200, height: 30)
                 .background(Color.white)
+                .cornerRadius(20)
                 .multilineTextAlignment(.center)
                 .padding()
 
